@@ -1,0 +1,32 @@
+name: LCaixas
+version: '1.0'
+main: com.uaulight.lcaixas.Main
+authors: [ uauLight ]
+description: Plugin de caixas misteriosas para o seu servidor.
+website: https://skymc.com.br/
+commands:
+  caixas:
+    description: Mostra a lista de caixas.
+    aliases: []
+    permission: caixas.admin
+    permission-message: "§cVocê não tem permisspara utilizar este comando."
+  criarcaixa:
+    description: Cria uma caixa.
+    aliases: []
+    permission: caixas.admin
+    permission-message: "§cVocê não tem permisspara utilizar este comando."
+  delcaixa:
+    description: Deleta uma caixa criada.
+    aliases: []
+    permission: caixas.admin
+    permission-message: "§cVocê não tem permisspara utilizar este comando."
+  editarcaixa:
+    description: Edita uma caixa criada.
+    aliases: []
+    permission: caixas.admin
+    permission-message: "§cVocê não tem permisspara utilizar este comando."
+  givecaixa:
+    description: Pega uma caixa.
+    aliases: [caixa]
+    permission: caixas.admin
+    permission-message: "§cVocê não tem permisspara utilizar este comando."
